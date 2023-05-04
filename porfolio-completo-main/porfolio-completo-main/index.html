@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PORTAFOLIO</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/Portafolio de Ejercicios/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Javascript</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Mis Proyectos</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/EdwardM28" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/edwardalfonso.unatemosquera" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/edwardalfonso28/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Edward Uñate</span>, Aprendiz de desarrollo Web</h2>
+                <p class="descripcion"> Aqui estaran todos mis trabajos como Aprendiz SENA </p>
+                <a href="#sobremi"> Comenzar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Edward Uñate</span> </h2>
+            <h3>Aprendiz a Desarrollo Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            <a href="#servicios">Ejercicios</a>
+        </div>
+    </section>
+
+    <!-- SECCION J A V A S C R I P T -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Javascript</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 1</h4></a>
+                <hr>
+                <p> Crea una función que tome dos números como argumentos y devuelva su suma </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 2</h4>
+                <hr>
+                <p>Crea una función que tome una cadena como argumento y devuelva el número de caracteres que tiene</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 3</h4>
+                <hr>
+                <p>Crea una función que tome un array de números como argumento y devuelva el número más grande</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 4</h4>
+                <hr>
+                <p> Crea una función que tome una cadena como argumento y devuelva la misma cadena 
+                    pero con todas las letras en mayúsculas</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 5</h4>
+                <hr>
+                <p>Crea una función que tome un objeto como argumento y devuelva un array con todas las 
+                    claves del objeto</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 6</h4>
+                <hr>
+                <p>Crea una función que tome un array de números como argumento y devuelva un nuevo 
+                    array con los números ordenados de menor a mayor</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 7</h4></a>
+                <hr>
+                <p>Crea una función que tome dos fechas como argumentos y devuelva el número de días 
+                    que hay entre ellas</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 8</h4>
+                <hr>
+                <p>Crea una función que tome un array de strings como argumento y devuelva un nuevo 
+                    array con la longitud de cada string</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ejercicio 9</h4>
+                <hr>
+                <p>Crea una función que tome un objeto como argumento y devuelva un nuevo objeto con 
+                    las mismas claves pero con los valores invertido</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 10</h4></a>
+                <hr>
+                <p> Crea una función que tome un número como argumento y devuelva un array con todos 
+                    los números enteros desde 1 hasta ese número</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 11</h4></a>
+                <hr>
+                <p>Crea una función que tome un array de strings como argumento y devuelva un nuevo 
+                    array con todas las strings en mayúsculas</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 12</h4></a>
+                <hr>
+                <p>Crea una función que tome dos strings como argumentos y devuelva true si son iguales 
+                    (sin importar mayúsculas o minúsculas) o false si son diferentes</p>
+            </div>
+        </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                    <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 13</h4></a>
+                    <hr>
+                    <p>Crea una función que tome un array de objetos y un string como argumentos y devuelva 
+                        un nuevo array con todos los objetos que contienen una propiedad con ese string como 
+                        clave</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                    <a href="https://codepen.io/EdwardM28/pen/xxyZbBy" target="_blank"><h4>Ejercicio 14</h4></a>
+                    <hr>
+                    <p>Crea una función que tome un array de números como argumento y devuelva true si 
+                        todos los números son pares o false si alguno es impar</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+           <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                <a href="../PORTAFOLIO/index.html" target="_blank"><h4>Portafolio Prueba</h4></a>
+                    <p>HTMl - CSS - JAVASCRIPT</HTMl></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
